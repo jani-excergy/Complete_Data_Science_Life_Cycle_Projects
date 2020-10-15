@@ -50,8 +50,8 @@ def main():
         result=predict_AQI(Average_Temperature,Maximum_Temperature,Minimum_Temperature,Atm_pressure_at_sea_level,Average_wind_speed)
     st.success('The output is {}'.format(result))
     if st.button("About"):
-        st.text("Lets LEarn")
-        st.text("Built with Streamlit")
+        st.text("Janibasha Shaik")
+        st.text(" 2020 ")
 
 if __name__=='__main__':
     main()
